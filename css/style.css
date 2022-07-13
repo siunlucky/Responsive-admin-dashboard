@@ -48,6 +48,7 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    
 
 }
 
@@ -62,8 +63,10 @@ body {
     font-size: 0.88rem;
     background-color: var(--color-background);
     user-select: none;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
     color: var(--color-dark);
+    
 }
 
 .container{
@@ -72,6 +75,7 @@ body {
     margin: 0 auto; 
     gap: 1.8rem;
     grid-template-columns: 14rem auto 23rem;
+    
 }
 
 a{
